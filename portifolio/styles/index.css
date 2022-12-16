@@ -38,6 +38,10 @@
     text-transform: capitalize;
 }
 
+#id-sobre-mim{
+    transition: 2s;
+}
+
 .img-principal img{
     width: 22%;
     display: block;
@@ -65,8 +69,8 @@
 
 .sobre-mim-titulo h6{
     background: #ffff;
-    position: absolute;
-    top: 93.7%;
+    position: relative;
+    top: -14px;
     left: 50%;
     margin-left: -160px;
     width: 320px;
@@ -86,7 +90,7 @@
 .contato {
     text-align: center;
     font-family: 'Cambria';
-    
+    margin-bottom: 3.5rem;
 }
 
 .contato-titulo{
@@ -100,8 +104,8 @@
 
 .contato-titulo h6{
     background: #ffff;
-    position: absolute;
-    top: 60.6rem;
+    position: relative;
+    top: -1rem;
     left: 50%;
     margin-left: -160px;
     width: 320px;
@@ -184,4 +188,146 @@
     box-shadow: 0 4px 4px #000000;
     transition: all .5s ease-in-out
     
+}
+
+
+.experiencias{
+    text-align: center;
+    font-family: 'Cambria';
+    margin-bottom: 10rem;
+}
+
+.experiencias-titulo{
+    text-transform: capitalize;
+    color: #003821;
+    height: 2px;
+    background: #dddddd;
+    border-bottom: #ffffff solid 1px;
+    margin-bottom: 7.2rem;
+}
+
+.experiencias-titulo h6{
+    background: #ffff;
+    position: relative;
+    left: 41%;
+    top: -14px;
+    margin-left: -160px;
+    width: 43%;
+    text-align: center;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+
+
+.caixa-experiencias{
+    background: #8EB1A5;
+    height: 50rem;
+    padding: 18rem;
+    position: relative;
+    font-family: 'Cambria';
+}
+
+#texto1-experiencias{
+    text-align: center;
+    position: relative;
+    top: -13rem;
+    left: -18rem;
+    
+}
+
+#texto1-experiencias h4{
+    font-family: 'Cambria';
+    letter-spacing: 0.2rem;
+    font-size: 18px;
+}
+
+#texto1-experiencias img{
+    width: 38%;
+    position: relative;
+    top: 5rem;
+}
+
+#sobre-experiencia1{
+    position: relative;
+    top: 12.5rem;
+    font-size: 15px;
+    line-height: 1.8rem;
+}
+
+
+#texto2-experiencias {
+    text-align: center;
+    position: relative;
+    top: -32.2rem;
+    right: -18rem;
+}
+
+#texto2-experiencias h4{
+    font-family: 'Cambria';
+    letter-spacing: 0.2rem;
+    font-size: 18px;
+}
+
+#texto2-experiencias img{
+    width: 28%;
+    position: relative;
+    top: 5rem;
+}
+
+#sobre-experiencias2{
+    position: relative;
+    top: 9.3rem;
+    font-size: 15px;
+    line-height: 1.8rem;
+}
+
+.trabalhos-pessoais{
+    text-align: center;
+    font-family: 'Cambria';
+    margin-bottom: 10rem;
+}
+
+.titulo-trabalhos-pessoais{
+    text-transform: capitalize;
+    color: #003821;
+    height: 2px;
+    background: #dddddd;
+    border-bottom: #ffffff solid 1px;
+    margin-bottom: 2.2rem;
+}
+
+.titulo-trabalhos-pessoais h6{
+    background: #ffff;
+    position: relative;
+    left: 46%;
+    top: -14px;
+    margin-left: -160px;
+    width: 33%;
+    text-align: center;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+
+.menu-trabalhos-pessoais{
+    font-size: 15px;
+    padding: 5%;
+    line-height: 35px;
+    font-family: 'Cambria';
+}
+
+.caixa-trabalhos-pessoais{
+    background: #F1F1F1;
+    height: 50rem;
+    padding: 18rem;
+    position: relative;
+    font-family: 'Cambria';
+}
+.caixa-trabalhos-pessoais h5{
+    position: relative;
+    text-align: center;
+
 }
